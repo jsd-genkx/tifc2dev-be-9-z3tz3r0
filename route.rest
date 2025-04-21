@@ -1,0 +1,18 @@
+### GET all books
+
+GET http://localhost:3000/api/v1/books
+
+### GET books by genre
+
+GET http://localhost:3000/api/v1/books?genre=Fiction
+
+
+### POST new book
+POST http://localhost:3000/api/v1/books
+Content-Type: application/json
+
+{
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction"
+}
